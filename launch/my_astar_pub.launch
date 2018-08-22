@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- roslaunch my_astar_pub my_astar_pub.launch-->
+
+<launch>
+   <node pkg="my_astar_pub" type="pub_globalplanner.py" name="global_planner" output="screen" /> 
+</launch>
+
